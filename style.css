@@ -1,0 +1,59 @@
+:root {
+
+    /* Text */
+    --softviolet: hsl(273, 75%, 66%);
+    --softblue: hsl(240, 73%, 65%);
+
+    /* Gradient */
+    --verydarkgrayishblue: hsl(237, 12%, 33%);
+    --darkgrayishblue: hsl(240, 6%, 50%);
+
+    /* dividers */
+    --lightgrayishblue: hsl(240, 5%, 91%);
+
+}
+
+body{
+
+    font-size: 12px;
+    font-family: "Kumbh Sans", sans-serif;
+    margin: 0;  
+    /*
+    weigths:400,700
+    */
+}
+
+.bg{
+    background-image: linear-gradient(var(--softviolet), var(--softblue));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh; 
+}
+
+
+.faqCard {
+    display: flex;
+    top: 300px;
+    left: 300px;
+    right: 300px;
+    position: relative;
+    height: 500px;
+    width: 1000px;
+    background-color: rgb(241, 241, 241);
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.faqWord{
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    background-color: rgb(241, 241, 241);
+    float: left;
+    text-align: center;
+    right: -20px;
+    border-style: solid;
+    
+}
