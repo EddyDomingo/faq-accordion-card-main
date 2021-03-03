@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://fonts.google.com/specimen/Kumbh+Sans">
@@ -20,34 +20,74 @@
 
   <div class="bg">
     <div class="faqCard">
-      <div class="faqWord">
+
+    <div class="bg-pattern-desktop">
+        <img src="images/bg-pattern-desktop.svg" alt="pattern desktop" id="imgbg" />
+        <img src="images/illustration-box-desktop.svg" alt="box desktop" id="imgBox"/>
+        <img src="images/illustration-woman-online-desktop.svg" alt="woman online desktop" id="imgWoman"/>
     
-        How many team members can I invite?
-        You can invite up to 2 additional users on the Free plan. There is no limit on 
-        team members for the Premium plan.
+    </div>
+      <div class="faqWord">
 
-        What is the maximum file upload size?
-        No more than 2GB. All files in your account must fit your allotted storage space.
 
-        How do I reset my password?
-        Click “Forgot password” from the login page or “Change password” from your profile page.
-        A reset link will be emailed to you.
+        <p>
+        <strong class="faqText">FAQ</strong>
+        </p>
 
-        Can I cancel my subscription?
-        Yes! Send us a message and we’ll process your request no questions asked.
+        <section class="faqquestions">
+          <article class="questions">
+            How many team members can I invite?
+            <img src="images/icon-arrow-down.svg" alt="arrow" class="arrow" id="down-arrow">
+            <hr>
+            <detail class="answer">
+              You can invite up to 2 additional users on the Free plan. There is no limit on 
+              team members for the Premium plan.
+            </detail>
+          </article>  
 
-        Do you provide additional support?
-        Chat and email support is available 24/7. Phone lines are open during normal business hours.
+          <article class="questions">
+            What is the maximum file upload size?
+            <img src="images/icon-arrow-down.svg" alt="arrow" class="arrow" id="down-arrow">
+            <hr>
+            <detail class="answer">
+              No more than 2GB. All files in your account must fit your allotted storage space.
+            </detail>
+          </article>  
+
+          <article class="questions">
+            How do I reset my password?
+            <img src="images/icon-arrow-down.svg" alt="arrow" class="arrow" id="down-arrow">
+            <hr>
+            <detail class="answer">
+              Click “Forgot password” from the login page or “Change password” from your profile page.
+              A reset link will be emailed to you.
+            </detail>
+          </article> 
+
+          <article class="questions">
+            Can I cancel my subscription?
+            <img src="images/icon-arrow-down.svg" alt="arrow" class="arrow" id="down-arrow">
+            <hr>
+            <detail class="answer">
+              Yes! Send us a message and we’ll process your request no questions asked.
+            </detail>
+          </article>
+
+          <article class="questions">
+            Do you provide additional support?
+            <img src="images/icon-arrow-down.svg" alt="arrow" class="arrow" id="down-arrow">
+            <hr>
+            <detail class="answer">
+              Chat and email support is available 24/7. Phone lines are open during normal business hours.
+            </detail>
+          </article>
+        </section>
       </div>
     </div>
-    
-
-    <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Eddy Alvarado</a>.
-    </div>
 
     </div>
+
+    <script src="script.js"></script>
 
     <!--
       **Desktop

@@ -1,10 +1,10 @@
 :root {
 
-    /* Text */
+    /* Gradient */
     --softviolet: hsl(273, 75%, 66%);
     --softblue: hsl(240, 73%, 65%);
 
-    /* Gradient */
+    /* Text */
     --verydarkgrayishblue: hsl(237, 12%, 33%);
     --darkgrayishblue: hsl(240, 6%, 50%);
 
@@ -37,12 +37,13 @@ body{
     top: 300px;
     left: 300px;
     right: 300px;
-    position: relative;
+    position: absolute;
     height: 500px;
     width: 1000px;
     background-color: rgb(241, 241, 241);
     border-radius: 25px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
 
 }
 
@@ -53,7 +54,80 @@ body{
     background-color: rgb(241, 241, 241);
     float: left;
     text-align: center;
-    right: -20px;
-    border-style: solid;
+    right: -5px;
+    text-align: left;
+    border-radius: 25px;
+        
+}
+
+.faqText{
+    font-size: 30px;
+    margin-top: 30px;
     
 }
+
+.faqquestions{
+    /*margin-top: 70px;*/
+    margin: 30px;
+
+}
+
+.questions{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+.bg-pattern-desktop{
+    text-align: justify;
+    
+
+}
+
+#imgbg {
+    position: absolute;
+    bottom: -100px;
+    height: 750px;
+    right:590px;
+    
+}
+
+#imgBox{
+    position: absolute;
+    height: 220px;
+    bottom: 80px;
+    right: 890px;
+    z-index: 5;
+    
+
+}
+
+#imgWoman{
+    position: absolute;
+    height: 350px;
+    bottom: 50px;
+    left:-60px;
+
+}
+
+.arrow{
+    float:right;
+    
+}
+
+hr {
+   color: var(--lightgrayishblue) 
+}
+
+.answer{
+   display: none; 
+}
+
+.questions.active .answer {
+    display: initial;
+  }
+
+  .questions.active .arrow {
+    transform: scale(-1);
+  }
+
